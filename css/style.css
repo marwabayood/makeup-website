@@ -1,0 +1,245 @@
+/********Start Logo in Navbar **********/
+.sublogo
+{
+    color: darkorange;
+}
+.logo:hover
+{
+    color: darkorange;
+    cursor: pointer;
+}
+.logo:hover .sublogo
+{
+    color: whitesmoke;
+}
+/***********End**************/
+/**************Start Header************/
+#headHome
+{
+    background-image: url(../images/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    min-height: 600px;
+    text-align: center;
+}
+.headingHome
+{
+    font-size: 7vw;
+    font-family: "Playfair+Display", times, serif;
+    color: #fff;
+    line-height: 1;
+    font-weight: bold;
+    position: relative;
+    top: 35%;
+}
+/************End***********/
+/**************Start Service ********************/
+#section3
+{
+    background-image: url(../images/services_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.media-body p 
+{
+    color: darkgray;
+}
+.media-body h5
+{
+    color: whitesmoke
+}
+#media1:hover .service_title{
+    color: orange;
+}
+#media1:hover{
+    cursor: pointer;
+}
+#media1:hover p
+{
+    color: whitesmoke;
+}
+#media2:hover .service_title{
+    color: orange;
+}
+#media2:hover{
+    cursor: pointer;
+}
+#media2:hover p
+{
+    color: whitesmoke;
+}
+#media3:hover .service_title{
+    color: orange;
+}
+#media3:hover{
+    cursor: pointer;
+}
+#media3:hover p
+{
+    color: whitesmoke;
+}
+#media4:hover .service_title{
+    color: orange;
+}
+#media4:hover{
+    cursor: pointer;
+}
+#media4:hover p
+{
+    color: whitesmoke;
+}
+#media5:hover .service_title{
+    color: orange;
+}
+#media5:hover{
+    cursor: pointer;
+}
+#media5:hover p
+{
+    color: whitesmoke;
+}
+#media6:hover .service_title{
+    color: orange;
+}
+#media6:hover{
+    cursor: pointer;
+}
+#media6:hover p
+{
+    color: whitesmoke;
+}
+#media7:hover .service_title{
+    color: orange;
+}
+#media7:hover{
+    cursor: pointer;
+}
+#media7:hover p
+{
+    color: whitesmoke;
+}
+#media8:hover .service_title{
+    color: orange;
+}
+#media8:hover{
+    cursor: pointer;
+}
+#media8:hover p
+{
+    color: whitesmoke;
+}
+/* **************End Service********************/
+/* **************Start Pricing *********************************/
+#section4
+{
+    background-image: url(../images/pricing_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pricing_list
+{
+    font-size: 14px;
+    font-weight: 500;    
+}
+/************End Pricing*************************/
+/* **************Start TheBest *********************************/
+#section6
+{
+    background-image: url(../images/index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/****************End TheBest*******************/
+/* **************Start Article *********************************/
+#section7
+{
+    background-image: url(../images/milestones.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section7card
+{
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.4s ease;
+}
+.section7card img
+{
+     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15); 
+}
+
+.section7card:hover {
+	    transform: translateY(-10px) scale(1.02);
+	    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.15); 
+}
+
+/**************End Article **********************/
+footer
+{
+    background-image: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: darkgray;
+}
+.footerText
+{
+    font-size: 2em;
+    font-weight: 400;
+    color: darkgray;
+}
+.contact_info_icon
+{
+    font-size: 1.5em;
+    color: orange;
+}
+.social ul li
+{
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	border-radius: 50%;
+	background: #ffae00;
+}
+
+.social ul li a
+{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.social ul li a i
+{
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 32px;
+}
+.social ul li:hover a i
+{
+	color: #1a1a1a;
+}
+.social ul li:hover
+{
+	background: #FFFFFF;
+}
+/* **************End footer *******************/
+
+
+
+
+
+
+
+
+
+
+
+
